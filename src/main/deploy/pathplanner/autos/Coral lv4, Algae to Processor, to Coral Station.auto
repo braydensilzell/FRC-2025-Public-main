@@ -1,0 +1,31 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Reef Line Up (Right)"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Reef to Processor"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Processor to Coral Station"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
