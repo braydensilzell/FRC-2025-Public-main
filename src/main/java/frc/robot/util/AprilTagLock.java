@@ -16,7 +16,7 @@ public class AprilTagLock {
     }
    
     public static double getR() {
-    //Calculates the control loop output of the "tx" limelight entry in degrees
+    //Calculates the control loop output of the "tx" limelight entry in degrees.
     return rotationPID.calculate(NetworkTableInstance.getDefault().getTable("limelight").getEntry("tx").getDouble(0));
     }
     
