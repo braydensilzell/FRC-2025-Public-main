@@ -7,13 +7,13 @@
         {
           "type": "path",
           "data": {
-            "pathName": "Leave (Left or Right)"
+            "pathName": "SimplePath"
           }
         }
       ]
     }
   },
   "resetOdom": true,
-  "folder": "Leave",
+  "folder": null,
   "choreoAuto": false
 }
